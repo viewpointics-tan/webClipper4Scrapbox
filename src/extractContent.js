@@ -8,7 +8,7 @@ import Mercury from "@postlight/mercury-parser"
 
   Mercury.parse(url, { contentType: "text" }).then((result) => {
     const title = document.title.trim()
-    const lines = [`#${todayString}-bookmark`, `[${url} ${title}]`, result, ""]
+    const lines = [`#${todayString}-bookmark`, `[${url} ${title}]`, result.content, ""]
     const body = encodeURIComponent(lines.join("\n"))
     window.location.href =
       `https://scrapbox.io/brain-of-viewpointicstan/${encodeURIComponent(title)}?body=${body}`
