@@ -1,5 +1,5 @@
 module.exports = {
-  entry: "./src/extractTitleAndURL.js",
+  entry: "./src/extractContent.js",
   output: {
     path: `${__dirname}/dist`,
     filename: "main.js",
