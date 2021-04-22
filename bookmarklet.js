@@ -1,1 +1,1 @@
-javascript:(function(){var s=document.createElement("script");s.src="https://cdn.jsdelivr.net/gh/viewpointics-tan/webClipper4Scrapbox@0.0.4/dist/main.js";document.getElementsByTagName("body")[0].appendChild(s);})()
+javascript:(function(){var s=document.createElement("script");s.src="https://cdn.jsdelivr.net/gh/viewpointics-tan/webClipper4Scrapbox/dist/main.js";document.getElementsByTagName("body")[0].appendChild(s);})()
